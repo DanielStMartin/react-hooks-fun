@@ -1,0 +1,34 @@
+.App {
+	min-width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	.example {
+		box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.411);
+		border: grey solid 5px;
+		margin: 20px;
+		padding: 10px;
+		input {
+			box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.411);
+			margin: 0 10px;
+			height: 35px;
+			border: none;
+		}
+
+		img {
+			width: 100px;
+			margin: 0 10px;
+		}
+		button {
+			width: 140px;
+			height: 35px;
+			margin: 10px;
+			border: grey solid 5px;
+			border-radius: 5px;
+			box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.411);
+		}
+	}
+}
